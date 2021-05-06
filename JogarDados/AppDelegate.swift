@@ -3,7 +3,7 @@
 //  JogarDados
 //
 //  Created by Andre Ramos on 03/05/21.
-// A Beatriz me ajudou.
+
 
 import UIKit
 
