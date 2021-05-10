@@ -23,9 +23,10 @@ class ViewController: UIViewController {
 //MARK: - Actions
 
     @IBAction func rolarDadoPressed(_ sender: UIButton) {
+        let arrayDados = [UIImage(named:"DiceOne"), UIImage(named:"DiceTwo"), UIImage(named:"DiceThree"), UIImage(named:"DiceFour"), UIImage(named:"DiceFive"), UIImage(named:"DiceSix")]
         
-        dadoImageViewOne.image = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")][Int.random(in: 0...5)]
-        dadoImageViewTwo.image = [#imageLiteral(resourceName: "DiceOne"), #imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")][Int.random(in: 0...5)]
+        dadoImageViewOne.image = arrayDados[Int.random(in: 0...5)]
+        dadoImageViewTwo.image = arrayDados[Int.random(in: 0...5)]
         
 }
 
