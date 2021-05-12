@@ -42,13 +42,21 @@
                                                 <rect key="frame" x="0.0" y="272.5" width="414" height="273"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="88" translatesAutoresizingMaskIntoConstraints="NO" id="zIi-KA-r5R">
-                                                        <rect key="frame" x="63" y="86.5" width="288" height="100"/>
+                                                        <rect key="frame" x="43" y="76.5" width="328" height="120"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="GUt-Wq-3Ik">
-                                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="120" id="PmL-ku-89K"/>
+                                                                    <constraint firstAttribute="width" constant="120" id="ryq-4E-L9i"/>
+                                                                </constraints>
                                                             </imageView>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="f4d-54-e4F">
-                                                                <rect key="frame" x="188" y="0.0" width="100" height="100"/>
+                                                                <rect key="frame" x="208" y="0.0" width="120" height="120"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="120" id="3aS-da-N63"/>
+                                                                    <constraint firstAttribute="width" constant="120" id="rcb-Hk-HIF"/>
+                                                                </constraints>
                                                             </imageView>
                                                         </subviews>
                                                         <constraints>
