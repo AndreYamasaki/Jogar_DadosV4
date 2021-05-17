@@ -71,7 +71,6 @@
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstItem="zIi-KA-r5R" firstAttribute="centerX" secondItem="9FM-ma-jZu" secondAttribute="centerX" id="SQ3-Ys-HdM"/>
                                                     <constraint firstItem="zIi-KA-r5R" firstAttribute="centerY" secondItem="9FM-ma-jZu" secondAttribute="centerY" id="pfz-Ak-d4r"/>
